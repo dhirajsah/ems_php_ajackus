@@ -1,1 +1,1 @@
-Simple php application to manage an employee
+Simple php application to manage employees
