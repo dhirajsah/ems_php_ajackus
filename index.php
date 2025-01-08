@@ -36,6 +36,13 @@
           <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
           <strong>Success!</strong> Employee deleted successfully. </div>
         <?php } ?>
+		  
+		<?php if ( isset( $_GET[ 'status' ] ) && $_GET[ 'status' ] == 'exist' ) { ?>
+        <div class="alert alert-danger alert-dismissible">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          <strong>Error!</strong> Employee with given email id already exist. </div>
+        <?php } ?>
+		  
         
         <!---->
         <div class="row">
