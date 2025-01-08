@@ -1,0 +1,5 @@
+#other pages
+RewriteRule ^add-employee(.*)$ add-employee.php
+RewriteRule ^edit-employee(.*)$ edit-employee.php
+RewriteRule ^search(.*)$ search.php
+RewriteRule ^delete(.*)$ delete.php
